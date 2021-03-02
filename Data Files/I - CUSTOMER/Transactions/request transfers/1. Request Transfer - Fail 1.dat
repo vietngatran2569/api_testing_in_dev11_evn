@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>fail in step request transfer</description>
+   <name>1. Request Transfer - Fail 1</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>9679a81a-b9dd-4e8d-a0e0-9974290dcec2</dataFileGUID>
+   <dataSourceUrl>C:\Users\Asus\Downloads\AYA Subscriber App\FolderExcelFiles\I - SUBCRIBER\3. Transactions\transfer\transfer to mobile\1. Transfer - To - Mobile - Success.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

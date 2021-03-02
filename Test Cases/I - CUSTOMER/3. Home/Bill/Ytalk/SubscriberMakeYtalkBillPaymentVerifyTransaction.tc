@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SubscriberMakeYtalkBillPaymentVerifyTransaction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>331bc62a-6181-486d-8087-8626ba0981ce</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>13e31930-f135-47eb-b91c-95e2b7b0f9fe</id>
+      <masked>false</masked>
+      <name>OTP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>297bc2d3-0bb6-4b21-a298-7c1ddfdac199</id>
+      <masked>false</masked>
+      <name>MessageType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ae2aafd2-1b5c-4aa3-b53f-fd81c178fa63</id>
+      <masked>false</masked>
+      <name>DEVICEID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>acb8c33f-9ae0-49e6-a4c0-b3ed7a7a8907</id>
+      <masked>false</masked>
+      <name>PIN</name>
+   </variable>
+</TestCaseEntity>

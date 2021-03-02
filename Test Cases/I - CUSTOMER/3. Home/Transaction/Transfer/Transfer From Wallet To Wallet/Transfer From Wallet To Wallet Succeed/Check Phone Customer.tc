@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check phone of RECEIVER PHONE</description>
+   <name>Check Phone Customer</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb0efe0a-400d-408e-a4cb-5c315c020039</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b65e7dc1-88ff-4e74-92f5-ee6fb38732fb</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fcb841bc-2de5-469d-b3d7-c5a5b723fcf9</id>
+      <masked>false</masked>
+      <name>Expected_Err</name>
+   </variable>
+</TestCaseEntity>

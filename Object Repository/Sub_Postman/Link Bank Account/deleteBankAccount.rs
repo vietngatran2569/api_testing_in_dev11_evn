@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>deleteBankAccount</name>
+   <tag></tag>
+   <elementGuidId>3fa31ca8-59ad-460c-b1c6-2ad165bfc1e7</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;parameters&quot;: [
+    {
+      &quot;name&quot;: &quot;accountId&quot;,
+      &quot;value&quot;: &quot;5d04c8fe3ae994edd09c1153&quot;
+    }
+  ]
+}</httpBodyContent>
+   <httpBodyType>x-www-form-urlencoded</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value>Bearer ${tokenCus}</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/x-www-form-urlencoded</value>
+   </httpHeaderProperties>
+   <katalonVersion>7.8.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>${link}api/bankAccount/deleteBankAccount</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.link</defaultValue>
+      <description></description>
+      <id>edc052ee-000b-42be-8104-a7640aca3b0d</id>
+      <masked>false</masked>
+      <name>link</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.tokenCus</defaultValue>
+      <description></description>
+      <id>ea784ae8-d2ba-4cbf-b50c-c4be43677639</id>
+      <masked>false</masked>
+      <name>tokenCus</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ConfirmTopupTransaction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c114190b-f204-4366-9024-701e717c3ed9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>37a6a405-404e-498b-87f4-7d7fdfda69dd</id>
+      <masked>false</masked>
+      <name>MessageType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>21e40b8c-f507-415a-8d34-f9c2970693dd</id>
+      <masked>false</masked>
+      <name>DEVICEID</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Register with case wrong phone or deviceid</description>
+   <name>Register - Fail 1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>08863382-61b8-457c-900f-9d7631c2c83b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d5a91e3f-e4f9-447d-8bef-ba5ef76f568d</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9a2393ef-d37d-4635-b6af-df8da8a2d93f</id>
+      <masked>false</masked>
+      <name>deviceId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ba091751-b18d-446d-9202-6c82602aa918</id>
+      <masked>false</masked>
+      <name>firebaseToken</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>87a49fb8-74f8-4f59-83fd-e423871ea5fb</id>
+      <masked>false</masked>
+      <name>Expected_Err</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9789b160-43ff-4b24-9455-c177ce3ee969</id>
+      <masked>false</masked>
+      <name>MessageFail</name>
+   </variable>
+</TestCaseEntity>

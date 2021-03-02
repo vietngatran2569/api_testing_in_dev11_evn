@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SubscriberMakeYtalkBillPaymentConfirmTransaction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bee3dae6-028e-4baf-91b9-338746d11114</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>48282ba5-2433-41fc-8958-f4a1b9c16c92</id>
+      <masked>false</masked>
+      <name>MessageType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7d73b909-b3f1-4702-82d3-4c1f06203e56</id>
+      <masked>false</masked>
+      <name>DEVICEID</name>
+   </variable>
+</TestCaseEntity>

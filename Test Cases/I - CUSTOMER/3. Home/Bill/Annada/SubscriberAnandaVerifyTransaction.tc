@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SubscriberAnandaVerifyTransaction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7df769e-b417-40db-a868-a1184c98ff60</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>00abe3d5-3804-46d8-a895-0838b93f2950</id>
+      <masked>false</masked>
+      <name>OTP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e92a6018-4ef0-4f7f-98aa-47faa84f9077</id>
+      <masked>false</masked>
+      <name>MessageType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>662735f4-122e-4830-a8f3-119f7284bb96</id>
+      <masked>false</masked>
+      <name>DEVICEID</name>
+   </variable>
+</TestCaseEntity>

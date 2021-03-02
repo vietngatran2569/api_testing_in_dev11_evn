@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SubscriberAnandaConfirmTransaction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba9cc3f0-2ea7-4468-ab8b-e9be063fce56</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4d2449ae-10b1-4855-9059-37d68d9355a5</id>
+      <masked>false</masked>
+      <name>MessageType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>59ea6909-a594-486a-b836-27c40283e8cc</id>
+      <masked>false</masked>
+      <name>DEVICEID</name>
+   </variable>
+</TestCaseEntity>

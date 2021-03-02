@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Request Transfer - Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3e175624-fafd-46a0-ad39-49f74f65b205</testCaseGuid>
+   <variable>
+      <defaultValue>'09506569643'</defaultValue>
+      <description>phone 1 send request transfer</description>
+      <id>91c7c595-086c-4770-a6d1-839da2f8a081</id>
+      <masked>false</masked>
+      <name>phoneLogin1</name>
+   </variable>
+   <variable>
+      <defaultValue>'000000'</defaultValue>
+      <description>password phone 1</description>
+      <id>876a37d5-5665-4a46-aa18-95fedf0e9b4b</id>
+      <masked>false</masked>
+      <name>password1</name>
+   </variable>
+   <variable>
+      <defaultValue>'7d884018af47058d31'</defaultValue>
+      <description>deviceId phone 1</description>
+      <id>57087dbd-213b-49dd-82a7-bf3c8069b4a3</id>
+      <masked>false</masked>
+      <name>deviceId1</name>
+   </variable>
+   <variable>
+      <defaultValue>'dbwew6HPhkY:APA91bH6tZ_jD97MM47kzxjjhLjsWN17CoUFSwYrAZe3-_XHt0plqPfZhk8T2FpPecdp6zP7vGQACVN9l9IyhxAcFs6yecpJ03vNI_fvSTGbHzmoG5KFnxA5TsZmda5u-oyK770AZyRU'</defaultValue>
+      <description>firebase Token phone 1</description>
+      <id>0828a64f-9b02-4012-9aae-1cf1509a4d0e</id>
+      <masked>false</masked>
+      <name>firebaseToken1</name>
+   </variable>
+   <variable>
+      <defaultValue>'09406569642'</defaultValue>
+      <description>phone 2 receive request transfer</description>
+      <id>2f19d609-f307-497d-a5b3-ddcc97b7814a</id>
+      <masked>false</masked>
+      <name>phoneLogin2</name>
+   </variable>
+   <variable>
+      <defaultValue>'000000'</defaultValue>
+      <description>pw phone 2</description>
+      <id>104b7014-9774-405c-b5ed-04c7e0e59444</id>
+      <masked>false</masked>
+      <name>password2</name>
+   </variable>
+   <variable>
+      <defaultValue>'7d884018af47058d31'</defaultValue>
+      <description>deviceId phone 2</description>
+      <id>f13e379b-642b-4667-b69f-e35ea65952c1</id>
+      <masked>false</masked>
+      <name>deviceId2</name>
+   </variable>
+   <variable>
+      <defaultValue>'dbwew6HPhkY:APA91bH6tZ_jD97MM47kzxjjhLjsWN17CoUFSwYrAZe3-_XHt0plqPfZhk8T2FpPecdp6zP7vGQACVN9l9IyhxAcFs6yecpJ03vNI_fvSTGbHzmoG5KFnxA5TsZmda5u-oyK770AZyRU'</defaultValue>
+      <description>firebase Token phone 2</description>
+      <id>52bb52d6-b257-4fc6-933a-01100ea7e92b</id>
+      <masked>false</masked>
+      <name>firebaseToken2</name>
+   </variable>
+   <variable>
+      <defaultValue>'09406569642'</defaultValue>
+      <description>Request transfer and CustomerConfirmRequestTransfer</description>
+      <id>de21432b-657a-41d8-b77b-8e27b0142e32</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'2000'</defaultValue>
+      <description>Request transfer and CustomerConfirmRequestTransfer</description>
+      <id>8e41744e-e1c5-4eee-b267-abb489c171f1</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+   <variable>
+      <defaultValue>'MMK'</defaultValue>
+      <description>Request transfer and CustomerConfirmRequestTransfer</description>
+      <id>392038d2-9f8d-4b68-9059-c6e452ecfa59</id>
+      <masked>false</masked>
+      <name>currency</name>
+   </variable>
+   <variable>
+      <defaultValue>'nga test'</defaultValue>
+      <description>Request transfer and CustomerConfirmRequestTransfer</description>
+      <id>ad467b84-615d-4b7b-9bae-7eb2fa4d3ecd</id>
+      <masked>false</masked>
+      <name>message</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description>get list notification</description>
+      <id>ef5a39e1-b34c-4cc0-ab34-5cb89d84699b</id>
+      <masked>false</masked>
+      <name>start</name>
+   </variable>
+   <variable>
+      <defaultValue>'20'</defaultValue>
+      <description>limit of get list noti</description>
+      <id>72463f84-2c8d-45fe-8b65-d70d1cb381ba</id>
+      <masked>false</masked>
+      <name>number</name>
+   </variable>
+   <variable>
+      <defaultValue>'5cf9d8f7ebfc2523d81a1d9c'</defaultValue>
+      <description>tranfer wallet to wallet of phone 2</description>
+      <id>ec48bb41-72b6-4d9b-82f2-33dd18e2db65</id>
+      <masked>false</masked>
+      <name>SERVICEID</name>
+   </variable>
+   <variable>
+      <defaultValue>'09406569642'</defaultValue>
+      <description>tranfer wallet to wallet of phone 2</description>
+      <id>0f09f77b-642c-44ca-8ff5-a8a4b152331f</id>
+      <masked>false</masked>
+      <name>SENDERPHONE</name>
+   </variable>
+   <variable>
+      <defaultValue>'customer'</defaultValue>
+      <description>tranfer wallet to wallet of phone 2</description>
+      <id>30b0deaf-1280-4701-8a40-091380379fce</id>
+      <masked>false</masked>
+      <name>SENDERCLIENT</name>
+   </variable>
+   <variable>
+      <defaultValue>'09506569643'</defaultValue>
+      <description>tranfer wallet to wallet of phone 2</description>
+      <id>80f19f97-c23a-40a4-91e4-cfd8250082ae</id>
+      <masked>false</masked>
+      <name>RECEIVERPHONE</name>
+   </variable>
+   <variable>
+      <defaultValue>'customer'</defaultValue>
+      <description>tranfer wallet to wallet of phone 2</description>
+      <id>418a5849-11f1-4c16-95e5-f6aa0b60b8a2</id>
+      <masked>false</masked>
+      <name>RECEIVERCLIENT</name>
+   </variable>
+   <variable>
+      <defaultValue>'FO'</defaultValue>
+      <description>tranfer wallet to wallet of phone 2</description>
+      <id>21a5303a-1608-479e-b161-703ed5a894c4</id>
+      <masked>false</masked>
+      <name>MessageType</name>
+   </variable>
+   <variable>
+      <defaultValue>'7d884018af47058d31'</defaultValue>
+      <description>tranfer wallet to wallet of phone 2</description>
+      <id>18f01dc9-ac28-410d-8504-420a919b62c3</id>
+      <masked>false</masked>
+      <name>DEVICEID</name>
+   </variable>
+   <variable>
+      <defaultValue>'nga test'</defaultValue>
+      <description>tranfer wallet to wallet of phone 2</description>
+      <id>a16d8e64-55c3-4035-8e02-569829e0cb83</id>
+      <masked>false</masked>
+      <name>MESSAGE</name>
+   </variable>
+   <variable>
+      <defaultValue>'2000'</defaultValue>
+      <description>tranfer wallet to wallet of phone 2</description>
+      <id>6157d677-cc0f-4ca5-b15f-1c6e6c0a1927</id>
+      <masked>false</masked>
+      <name>AMOUNT</name>
+   </variable>
+   <variable>
+      <defaultValue>'MMK'</defaultValue>
+      <description>tranfer wallet to wallet of phone 2</description>
+      <id>9889ee59-3208-4b94-8b2c-d3fe11bb8b74</id>
+      <masked>false</masked>
+      <name>CURRENCY</name>
+   </variable>
+   <variable>
+      <defaultValue>'1234'</defaultValue>
+      <description>tranfer wallet to wallet of phone 2</description>
+      <id>1f7c361e-deb9-47ad-a227-ac23c8dc5874</id>
+      <masked>false</masked>
+      <name>OTP</name>
+   </variable>
+   <variable>
+      <defaultValue>'000000'</defaultValue>
+      <description>tranfer wallet to wallet of phone 2</description>
+      <id>428d8aed-6963-4414-8451-6a7789e07968</id>
+      <masked>false</masked>
+      <name>PIN</name>
+   </variable>
+</TestCaseEntity>

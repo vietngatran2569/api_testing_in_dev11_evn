@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TransferConfirmTransaction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0ef10018-e707-43d3-8f09-3ee977e14251</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>281b8ab1-5f36-4066-91f0-7f8fe8cf109e</id>
+      <masked>false</masked>
+      <name>MessageType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ad2ae1f5-ee40-4bae-b0e4-0e0aecedd28f</id>
+      <masked>false</masked>
+      <name>DEVICEID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ef938168-c267-4ec0-813c-b435404ddbab</id>
+      <masked>false</masked>
+      <name>SERVICEID</name>
+   </variable>
+</TestCaseEntity>

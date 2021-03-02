@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyTopupTransaction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>41cd0c6b-cc4c-4080-8626-5a9d1be0c277</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3a285606-5992-450f-aff3-c59cf9fa1135</id>
+      <masked>false</masked>
+      <name>OTP</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>53304119-7611-4573-8bdb-826e9a761f9d</id>
+      <masked>false</masked>
+      <name>MessageType</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e254c810-f7a7-4ca3-8cc6-1090b318859c</id>
+      <masked>false</masked>
+      <name>DEVICEID</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4321bba8-c135-47e0-aa2d-5b8f3935ab7e</id>
+      <masked>false</masked>
+      <name>PIN</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>1. Login - Success</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>5c48b169-7c44-4591-b221-6031fe5e44bc</testSuiteGuid>
+   <testCaseLink>
+      <guid>5dfdae5e-519b-48ce-9f72-ad645c7fddce</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/I - CUSTOMER/1. Login/1.Login_Success</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>48cfccdc-6f60-4ef4-8788-ada402e1f06e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/I - CUSTOMER/Login,Register/1. Login - Success</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>48cfccdc-6f60-4ef4-8788-ada402e1f06e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Expected_Err</value>
+         <variableId>87a49fb8-74f8-4f59-83fd-e423871ea5fb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>48cfccdc-6f60-4ef4-8788-ada402e1f06e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>phone</value>
+         <variableId>f95d9a82-5b6c-494d-9cc2-8ad4a2c200f8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>48cfccdc-6f60-4ef4-8788-ada402e1f06e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>ebc5c31c-1245-43f7-80f4-89c77f8ee2b8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>48cfccdc-6f60-4ef4-8788-ada402e1f06e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>deviceId</value>
+         <variableId>9a2393ef-d37d-4635-b6af-df8da8a2d93f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>48cfccdc-6f60-4ef4-8788-ada402e1f06e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>firebaseToken</value>
+         <variableId>ba091751-b18d-446d-9202-6c82602aa918</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

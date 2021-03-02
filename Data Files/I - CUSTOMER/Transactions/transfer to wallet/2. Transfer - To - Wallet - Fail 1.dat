@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>2. Transfer - To - Wallet - Fail 1</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>828adb01-2994-4be6-a8e4-cdf53801b26c</dataFileGUID>
+   <dataSourceUrl>C:\Users\Asus\Downloads\AYA Subscriber App\FolderExcelFiles\I - SUBCRIBER\3. Transactions\transfer\transfer to wallet\2. Transfer - To - Wallet - Fail 1.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

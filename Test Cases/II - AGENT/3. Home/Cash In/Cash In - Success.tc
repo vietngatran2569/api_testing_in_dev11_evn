@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cash In - Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>934306b3-3122-4311-9708-3b14661dfc3b</testCaseGuid>
+   <variable>
+      <defaultValue>'0951115598'</defaultValue>
+      <description></description>
+      <id>9a6746a3-c103-4ebd-a7a7-a8cf5b8bf944</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'000000'</defaultValue>
+      <description></description>
+      <id>d5a37931-7583-4060-89b4-4074e598ce15</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'234546546567657'</defaultValue>
+      <description></description>
+      <id>6512ab62-ed64-4aea-ace7-6ad1516b50b4</id>
+      <masked>false</masked>
+      <name>firebaseToken</name>
+   </variable>
+   <variable>
+      <defaultValue>'10016668'</defaultValue>
+      <description></description>
+      <id>c1e128e6-1ac3-462d-b80c-286932ae3cef</id>
+      <masked>false</masked>
+      <name>userId</name>
+   </variable>
+   <variable>
+      <defaultValue>'5cf88d14ef5b869e8432796a'</defaultValue>
+      <description>serviceID  get from API  list Services</description>
+      <id>dcaf965e-43e5-4389-86e8-f1e221ff581e</id>
+      <masked>false</masked>
+      <name>SERVICEID</name>
+   </variable>
+   <variable>
+      <defaultValue>'0951115598'</defaultValue>
+      <description>phone of agent</description>
+      <id>0c7cadbb-66ac-4b3c-8969-f66f787146f4</id>
+      <masked>false</masked>
+      <name>SENDERPHONE</name>
+   </variable>
+   <variable>
+      <defaultValue>'agent'</defaultValue>
+      <description></description>
+      <id>b34cce5f-c0c2-49ed-b898-260ce9c8980e</id>
+      <masked>false</masked>
+      <name>SENDERCLIENT</name>
+   </variable>
+   <variable>
+      <defaultValue>'09506569642'</defaultValue>
+      <description>Phone of receiver</description>
+      <id>b20f9689-3a4d-4a53-b288-96c66989e004</id>
+      <masked>false</masked>
+      <name>RECEIVERPHONE</name>
+   </variable>
+   <variable>
+      <defaultValue>'customer'</defaultValue>
+      <description>customer</description>
+      <id>42197db1-1ea6-47ac-999f-5f8dbfe58297</id>
+      <masked>false</masked>
+      <name>RECEIVERCLIENT</name>
+   </variable>
+   <variable>
+      <defaultValue>'1000'</defaultValue>
+      <description>amount of transaction</description>
+      <id>b7b7ff0f-c0f5-4551-9ce3-dcad4c9d4bc1</id>
+      <masked>false</masked>
+      <name>AMOUNT</name>
+   </variable>
+   <variable>
+      <defaultValue>'MMK'</defaultValue>
+      <description></description>
+      <id>10e26c0f-1ea9-493b-a61e-e50271bf662d</id>
+      <masked>false</masked>
+      <name>CURRENCY</name>
+   </variable>
+   <variable>
+      <defaultValue>'ABC'</defaultValue>
+      <description>remarks</description>
+      <id>9041a461-e4be-4832-82e2-569230484d79</id>
+      <masked>false</masked>
+      <name>MESSAGE</name>
+   </variable>
+   <variable>
+      <defaultValue>'FO'</defaultValue>
+      <description>type: FO</description>
+      <id>d83e0406-921d-45c6-9f13-f51dbd039460</id>
+      <masked>false</masked>
+      <name>MessageType</name>
+   </variable>
+   <variable>
+      <defaultValue>'5b4588ba164e12f6345'</defaultValue>
+      <description>devices</description>
+      <id>8cae992c-a6d5-452b-bba1-9faf96f7a971</id>
+      <masked>false</masked>
+      <name>DEVICEID</name>
+   </variable>
+   <variable>
+      <defaultValue>'09691009765'</defaultValue>
+      <description>phone of sender( người gửi tiền)</description>
+      <id>b98a1330-cc19-4966-b862-e2c021f9bcc2</id>
+      <masked>false</masked>
+      <name>DEPOSITORPHONE</name>
+   </variable>
+   <variable>
+      <defaultValue>'LA12233'</defaultValue>
+      <description>nric of sender (nric của người gửi tiền )</description>
+      <id>e8b9fdfa-a067-490e-8acd-d47507a2f948</id>
+      <masked>false</masked>
+      <name>DEPOSITORNRIC</name>
+   </variable>
+   <variable>
+      <defaultValue>'000000'</defaultValue>
+      <description>pin if authen method : PIN</description>
+      <id>701e1812-8713-418c-8d14-6714e68bb5be</id>
+      <masked>false</masked>
+      <name>PIN</name>
+   </variable>
+   <variable>
+      <defaultValue>'1234'</defaultValue>
+      <description>otp if authen method OTP</description>
+      <id>311f29cd-648a-4452-b16f-b8cafea7edfd</id>
+      <masked>false</masked>
+      <name>OTP</name>
+   </variable>
+   <variable>
+      <defaultValue>'NGA'</defaultValue>
+      <description>name of sender (name của người gửi tiền)</description>
+      <id>61d23dc1-852f-44f4-8e5b-642ec70b92db</id>
+      <masked>false</masked>
+      <name>DEPOSITORNAME</name>
+   </variable>
+</TestCaseEntity>

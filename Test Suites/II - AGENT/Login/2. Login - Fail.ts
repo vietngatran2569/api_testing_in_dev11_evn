@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>2. Login - Fail</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>4466be7b-1a14-41ef-af55-269276ba4214</testSuiteGuid>
+   <testCaseLink>
+      <guid>3f9d7f41-dc89-4446-a781-687efc89bca1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/II - AGENT/1. Login/1.1 Login_Fail</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>28b6cea2-46dd-41ad-bb38-004dbc059108</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/II - AGENT/Login/1.1 Login - Fail</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>28b6cea2-46dd-41ad-bb38-004dbc059108</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>phone</value>
+         <variableId>c0a60c9e-9425-4f98-926e-1cf5b505e3af</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>28b6cea2-46dd-41ad-bb38-004dbc059108</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>e2288af6-20b5-408f-ad49-8910109ba1ab</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>28b6cea2-46dd-41ad-bb38-004dbc059108</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>deviceId</value>
+         <variableId>4523635d-9dc3-4b30-973b-282059740b63</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>28b6cea2-46dd-41ad-bb38-004dbc059108</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>firebaseToken</value>
+         <variableId>ee58b4fb-6886-4870-8aaf-02b224c75cb6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>28b6cea2-46dd-41ad-bb38-004dbc059108</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Expected_Err</value>
+         <variableId>bb2e4e4f-7d61-4f1c-bccb-57d43b86c4f1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>28b6cea2-46dd-41ad-bb38-004dbc059108</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Message</value>
+         <variableId>85d217d2-f58c-4ba8-866e-3cf5d6d9a77d</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
