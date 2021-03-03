@@ -13,31 +13,37 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;OTP&quot;,
-      &quot;value&quot;: &quot;9470&quot;,
+      &quot;value&quot;: &quot;${OTP}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;MessageType&quot;,
-      &quot;value&quot;: &quot;FO&quot;,
+      &quot;value&quot;: &quot;${MessageType}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;TRANSREFID&quot;,
-      &quot;value&quot;: &quot;{{TRANSACTIONID}}&quot;,
+      &quot;value&quot;: &quot;${TRANSREFID}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;PIN&quot;,
-      &quot;value&quot;: &quot;123456&quot;,
+      &quot;value&quot;: &quot;${PIN}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
   ]
 }</httpBodyContent>
    <httpBodyType>form-data</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+   </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -72,5 +78,46 @@
       <masked>false</masked>
       <name>tokenCus</name>
    </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ba53c79f-e1bb-4d0f-b5cc-7d7e18f9b0c2</id>
+      <masked>false</masked>
+      <name>OTP</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5fbd0044-f44c-43ce-8a53-1697a4b1929b</id>
+      <masked>false</masked>
+      <name>MessageType</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>597e8451-1591-4030-bba9-988d2ff65756</id>
+      <masked>false</masked>
+      <name>TRANSREFID</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>affab3a0-4a62-4b59-85b4-51579e05b52a</id>
+      <masked>false</masked>
+      <name>PIN</name>
+   </variables>
+   <verificationScript>import static org.assertj.core.api.Assertions.*
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webservice.verification.WSResponseManager
+
+import groovy.json.JsonSlurper
+import internal.GlobalVariable as GlobalVariable
+
+RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

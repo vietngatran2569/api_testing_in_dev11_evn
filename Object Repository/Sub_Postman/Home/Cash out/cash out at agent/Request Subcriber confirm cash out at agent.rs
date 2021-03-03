@@ -13,67 +13,67 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;SERVICEID&quot;,
-      &quot;value&quot;: &quot;5d086c57e901ee1598168da6&quot;,
+      &quot;value&quot;: &quot;${SERVICEID}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;SENDERPHONE&quot;,
-      &quot;value&quot;: &quot;09677102111&quot;,
+      &quot;value&quot;: &quot;${SENDERPHONE}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;SENDERCLIENT&quot;,
-      &quot;value&quot;: &quot;customer&quot;,
+      &quot;value&quot;: &quot;${SENDERCLIENT}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;AMOUNT&quot;,
-      &quot;value&quot;: &quot;2000&quot;,
+      &quot;value&quot;: &quot;${AMOUNT}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;CURRENCY&quot;,
-      &quot;value&quot;: &quot;MMK&quot;,
+      &quot;value&quot;: &quot;${CURRENCY}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;MESSAGE&quot;,
-      &quot;value&quot;: &quot;Abc&quot;,
+      &quot;value&quot;: &quot;${MESSAGE}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;MessageType&quot;,
-      &quot;value&quot;: &quot;FO&quot;,
+      &quot;value&quot;: &quot;${MessageType}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;DEVICEID&quot;,
-      &quot;value&quot;: &quot;deviceid_for_example&quot;,
+      &quot;value&quot;: &quot;${DEVICEID}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;RECEIVERPHONE&quot;,
-      &quot;value&quot;: &quot;09677102111&quot;,
+      &quot;value&quot;: &quot;${RECEIVERPHONE}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;RECEIVERCLIENT&quot;,
-      &quot;value&quot;: &quot;agent&quot;,
+      &quot;value&quot;: &quot;${RECEIVERCLIENT}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;REQUESTID&quot;,
-      &quot;value&quot;: &quot;5f1ac7b89f13b05f729f581b&quot;,
+      &quot;value&quot;: &quot;${REQUESTID}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
@@ -92,7 +92,6 @@
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>application/x-www-form-urlencoded</value>
    </httpHeaderProperties>
    <katalonVersion>7.8.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
@@ -121,5 +120,95 @@
       <masked>false</masked>
       <name>tokenCus</name>
    </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>14ce6a13-f7ee-4dd1-82b1-6dcc2b89cec1</id>
+      <masked>false</masked>
+      <name>SERVICEID</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b6ef8c16-4c9c-4307-8f36-ed8f7c89cccd</id>
+      <masked>false</masked>
+      <name>SENDERPHONE</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f72a9986-87ba-406d-b795-bb7df661645e</id>
+      <masked>false</masked>
+      <name>SENDERCLIENT</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bef02e21-dddd-43d7-bf19-1716f173e625</id>
+      <masked>false</masked>
+      <name>AMOUNT</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bebe2da3-69cd-43f5-a0f5-c474cb670c58</id>
+      <masked>false</masked>
+      <name>CURRENCY</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3f2a205d-b398-480b-a7d8-29f15dd76ca2</id>
+      <masked>false</masked>
+      <name>MESSAGE</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aedd8ec0-b4ca-475b-a44b-19e1aa69757e</id>
+      <masked>false</masked>
+      <name>MessageType</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0510e5d1-abe2-4f9d-a314-1f377d724264</id>
+      <masked>false</masked>
+      <name>DEVICEID</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7d201509-4191-4bd6-80ca-4befcc749d5b</id>
+      <masked>false</masked>
+      <name>RECEIVERPHONE</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>962a39a3-a137-459c-8ed3-79885f357b31</id>
+      <masked>false</masked>
+      <name>RECEIVERCLIENT</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.requestId</defaultValue>
+      <description></description>
+      <id>f0c510e6-474b-47ff-a895-80c8f93ea1bf</id>
+      <masked>false</masked>
+      <name>REQUESTID</name>
+   </variables>
+   <verificationScript>import static org.assertj.core.api.Assertions.*
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webservice.verification.WSResponseManager
+
+import groovy.json.JsonSlurper
+import internal.GlobalVariable as GlobalVariable
+
+RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

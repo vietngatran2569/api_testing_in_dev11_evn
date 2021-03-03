@@ -13,19 +13,19 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;MessageType&quot;,
-      &quot;value&quot;: &quot;FO&quot;,
+      &quot;value&quot;: &quot;${MessageType}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;TRANSREFID&quot;,
-      &quot;value&quot;: &quot;{{TRANSACTIONID}}&quot;,
+      &quot;value&quot;: &quot;${TRANSREFID}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;DEVICEID&quot;,
-      &quot;value&quot;: &quot;deviceid_for_example&quot;,
+      &quot;value&quot;: &quot;${DEVICEID}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
@@ -44,7 +44,6 @@
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>application/x-www-form-urlencoded</value>
    </httpHeaderProperties>
    <katalonVersion>7.9.1</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
@@ -73,5 +72,39 @@
       <masked>false</masked>
       <name>tokenAgent</name>
    </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fa885cbe-e1b2-4b5f-b926-1a2ef783134d</id>
+      <masked>false</masked>
+      <name>MessageType</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.TRANSREFID</defaultValue>
+      <description></description>
+      <id>b3c0be24-1bf1-4941-808f-4d9fc5e86201</id>
+      <masked>false</masked>
+      <name>TRANSREFID</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6e02319b-dbf9-42fc-81ad-1fc67e88d48f</id>
+      <masked>false</masked>
+      <name>DEVICEID</name>
+   </variables>
+   <verificationScript>import static org.assertj.core.api.Assertions.*
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webservice.verification.WSResponseManager
+
+import groovy.json.JsonSlurper
+import internal.GlobalVariable as GlobalVariable
+
+RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

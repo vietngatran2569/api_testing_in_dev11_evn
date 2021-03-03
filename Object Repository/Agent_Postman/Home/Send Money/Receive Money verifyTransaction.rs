@@ -13,31 +13,37 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;OTP&quot;,
-      &quot;value&quot;: &quot;1234&quot;,
+      &quot;value&quot;: &quot;${OTP}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;MessageType&quot;,
-      &quot;value&quot;: &quot;FO&quot;,
+      &quot;value&quot;: &quot;${MessageType}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;TRANSREFID&quot;,
-      &quot;value&quot;: &quot;{{TRANSACTIONID}}&quot;,
+      &quot;value&quot;: &quot;${TRANSREFID}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;PIN&quot;,
-      &quot;value&quot;: &quot;123456&quot;,
+      &quot;value&quot;: &quot;${PIN}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
   ]
 }</httpBodyContent>
    <httpBodyType>form-data</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+   </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -72,5 +78,46 @@
       <masked>false</masked>
       <name>tokenAgent</name>
    </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>214bacf1-a0ac-4080-8aec-a15210fa09e2</id>
+      <masked>false</masked>
+      <name>OTP</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>52ed1583-289b-4f85-97ad-5d1a986bb7d7</id>
+      <masked>false</masked>
+      <name>MessageType</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.TRANSREFID</defaultValue>
+      <description></description>
+      <id>17c8bc8f-aaed-4aa6-91e5-9fa9aaafb6f2</id>
+      <masked>false</masked>
+      <name>TRANSREFID</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e0332b24-a520-4103-88bf-ba0cbabf0b39</id>
+      <masked>false</masked>
+      <name>PIN</name>
+   </variables>
+   <verificationScript>import static org.assertj.core.api.Assertions.*
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webservice.verification.WSResponseManager
+
+import groovy.json.JsonSlurper
+import internal.GlobalVariable as GlobalVariable
+
+RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
