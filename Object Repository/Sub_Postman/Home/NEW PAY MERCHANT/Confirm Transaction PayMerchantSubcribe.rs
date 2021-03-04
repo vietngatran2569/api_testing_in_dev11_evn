@@ -10,22 +10,30 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
+  &quot;contentType&quot;: &quot;multipart/form-data&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;,
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;MessageType&quot;,
-      &quot;value&quot;: &quot;FO&quot;
+      &quot;value&quot;: &quot;&quot;,
+      &quot;type&quot;: &quot;Text&quot;,
+      &quot;contentType&quot;: &quot;${MessageType}&quot;
     },
     {
       &quot;name&quot;: &quot;TRANSREFID&quot;,
-      &quot;value&quot;: &quot;{{TRANSACTIONID}}&quot;
+      &quot;value&quot;: &quot;&quot;,
+      &quot;type&quot;: &quot;Text&quot;,
+      &quot;contentType&quot;: &quot;${TRANSREFID}&quot;
     },
     {
       &quot;name&quot;: &quot;DEVICEID&quot;,
-      &quot;value&quot;: &quot;deviceid_for_example&quot;
+      &quot;value&quot;: &quot;&quot;,
+      &quot;type&quot;: &quot;Text&quot;,
+      &quot;contentType&quot;: &quot;${DEVICEID}&quot;
     }
   ]
 }</httpBodyContent>
-   <httpBodyType>x-www-form-urlencoded</httpBodyType>
+   <httpBodyType>form-data</httpBodyType>
    <httpHeaderProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -38,7 +46,7 @@
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>application/x-www-form-urlencoded</value>
+      <value>multipart/form-data</value>
    </httpHeaderProperties>
    <katalonVersion>7.8.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
@@ -67,5 +75,39 @@
       <masked>false</masked>
       <name>tokenCus</name>
    </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6a9c1a29-a704-49b0-a64d-cbbc2e4986ec</id>
+      <masked>false</masked>
+      <name>MessageType</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.TRANSREFID</defaultValue>
+      <description></description>
+      <id>ee7a5107-e69b-4c8c-adeb-56a6c195f353</id>
+      <masked>false</masked>
+      <name>TRANSREFID</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>229a02a8-3771-41ea-befc-cd17d420d08d</id>
+      <masked>false</masked>
+      <name>DEVICEID</name>
+   </variables>
+   <verificationScript>import static org.assertj.core.api.Assertions.*
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webservice.verification.WSResponseManager
+
+import groovy.json.JsonSlurper
+import internal.GlobalVariable as GlobalVariable
+
+RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
