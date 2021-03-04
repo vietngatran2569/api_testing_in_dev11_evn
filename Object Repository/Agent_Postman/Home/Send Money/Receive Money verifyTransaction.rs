@@ -93,7 +93,7 @@
       <name>MessageType</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.TRANSREFID</defaultValue>
+      <defaultValue>GlobalVariable.TRANSREFID1</defaultValue>
       <description></description>
       <id>17c8bc8f-aaed-4aa6-91e5-9fa9aaafb6f2</id>
       <masked>false</masked>

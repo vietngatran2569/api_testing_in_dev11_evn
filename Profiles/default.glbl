@@ -74,4 +74,9 @@
       <initValue>''</initValue>
       <name>apilagent</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>TRANSREFID1</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

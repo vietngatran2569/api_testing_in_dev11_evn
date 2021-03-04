@@ -27,13 +27,6 @@
       <name>RECEIVERCLIENT</name>
    </variable>
    <variable>
-      <defaultValue>'123456'</defaultValue>
-      <description></description>
-      <id>80f19f97-c23a-40a4-91e4-cfd8250082ae</id>
-      <masked>false</masked>
-      <name>BENEFICIARYNRIC</name>
-   </variable>
-   <variable>
       <defaultValue>'0950123456'</defaultValue>
       <description></description>
       <id>418a5849-11f1-4c16-95e5-f6aa0b60b8a2</id>
@@ -46,13 +39,6 @@
       <id>5cc39539-5b66-4df3-b70a-3fda516a6a21</id>
       <masked>false</masked>
       <name>DEPOSITORPHONE</name>
-   </variable>
-   <variable>
-      <defaultValue>'123457'</defaultValue>
-      <description></description>
-      <id>7c0e0a9d-334e-4bd8-9c7e-4f9077fda636</id>
-      <masked>false</masked>
-      <name>DEPOSITORNRIC</name>
    </variable>
    <variable>
       <defaultValue>'FO'</defaultValue>
@@ -116,5 +102,33 @@
       <id>f802aaa6-60d9-4599-a1f6-ded1bd6dbcf1</id>
       <masked>false</masked>
       <name>TRANSID</name>
+   </variable>
+   <variable>
+      <defaultValue>'0951115598'</defaultValue>
+      <description></description>
+      <id>cc1734d0-c7c8-4fe9-811d-812bcd6d130b</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'000000'</defaultValue>
+      <description></description>
+      <id>af52b1e5-9d5b-40a4-932a-408101cc0921</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'234546546567657'</defaultValue>
+      <description></description>
+      <id>8e65954b-f272-4f29-87a0-78fccc2d811c</id>
+      <masked>false</masked>
+      <name>firebaseToken</name>
+   </variable>
+   <variable>
+      <defaultValue>'10016668'</defaultValue>
+      <description></description>
+      <id>0e7b1b95-4662-4993-a145-190b39cdf05b</id>
+      <masked>false</masked>
+      <name>userId</name>
    </variable>
 </TestCaseEntity>
