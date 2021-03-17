@@ -239,7 +239,7 @@
       <name>SHOPID</name>
    </variables>
    <variables>
-      <defaultValue>''</defaultValue>
+      <defaultValue>GlobalVariable.VoucherCode</defaultValue>
       <description></description>
       <id>85463e85-ba84-4208-9ca7-37c416d0875f</id>
       <masked>false</masked>

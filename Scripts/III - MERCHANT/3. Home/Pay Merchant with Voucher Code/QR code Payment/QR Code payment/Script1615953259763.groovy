@@ -129,7 +129,7 @@ response7 = WS.sendRequest(findTestObject('Object Repository/Merchant _Postman/Q
 	('SUBUSERCLIENT'):SUBUSERCLIENT,
 	('QR'):GlobalVariable.QRforPaymerchantVoucher,
 	('SHOPID'):GlobalVariable.ShopId,
-	('VOUCHER'):VOUCHER
+	('VOUCHER'):GlobalVariable.VoucherCode
 	]))
 def result7= slurper.parseText(response7.getResponseBodyContent())
 def errCode7 = result7.err
