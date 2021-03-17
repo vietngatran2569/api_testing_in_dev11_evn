@@ -61,5 +61,11 @@
          <value>Message</value>
          <variableId>85d217d2-f58c-4ba8-866e-3cf5d6d9a77d</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>28b6cea2-46dd-41ad-bb38-004dbc059108</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userId</value>
+         <variableId>468d5de5-9344-4dff-bd09-be5218bbe0ce</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

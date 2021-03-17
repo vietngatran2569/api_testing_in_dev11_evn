@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 response = WS.sendRequest(findTestObject('Object Repository/Agent_Postman/New Folder/Login/Login With UserId', [('link') : GlobalVariable.link, ('phone') : phone
-            , ('password') : password, ('deviceId') : deviceId, ('firebaseToken') : firebaseToken]))
+            , ('password') : password, ('deviceId') : deviceId, ('firebaseToken') : firebaseToken, ('userId'): userId]))
 
 def slurper = new groovy.json.JsonSlurper()
 

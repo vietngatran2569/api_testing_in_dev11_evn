@@ -20,12 +20,12 @@
       <name>basicCus</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>token login by customer</description>
       <initValue>''</initValue>
       <name>tokenCus</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>token login by merchant</description>
       <initValue>''</initValue>
       <name>tokenMerchant</name>
    </GlobalVariableEntity>
@@ -78,5 +78,35 @@
       <description></description>
       <initValue>''</initValue>
       <name>TRANSREFID1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>loyaltyurl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>get profile of merchant to get merchantId</description>
+      <initValue>''</initValue>
+      <name>merchantId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>get Promotion id (sid) when get list promotion</description>
+      <initValue>''</initValue>
+      <name>PromotionId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>QR for Paymerchant Voucher</description>
+      <initValue>''</initValue>
+      <name>QRforPaymerchantVoucher</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Voucher code in my voucher</description>
+      <initValue>''</initValue>
+      <name>VoucherCode</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>merchant get list shop</description>
+      <initValue>''</initValue>
+      <name>ShopId</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

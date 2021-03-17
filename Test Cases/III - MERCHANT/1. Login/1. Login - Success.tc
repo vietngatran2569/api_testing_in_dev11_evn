@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1. Login - Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>18c9bb21-1931-4809-8ebc-60621d5bcba2</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9a6746a3-c103-4ebd-a7a7-a8cf5b8bf944</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d5a37931-7583-4060-89b4-4074e598ce15</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5a7817c6-eab1-4477-8ebe-fb609cab022e</id>
+      <masked>false</masked>
+      <name>deviceId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6512ab62-ed64-4aea-ace7-6ad1516b50b4</id>
+      <masked>false</masked>
+      <name>firebaseToken</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c1e128e6-1ac3-462d-b80c-286932ae3cef</id>
+      <masked>false</masked>
+      <name>userId</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3ce04228-01e9-4ede-b48a-600e1aa47ac3</id>
+      <masked>false</masked>
+      <name>Expected_Err</name>
+   </variable>
+</TestCaseEntity>

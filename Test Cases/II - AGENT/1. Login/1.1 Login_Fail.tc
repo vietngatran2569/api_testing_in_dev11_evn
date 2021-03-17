@@ -47,4 +47,11 @@
       <masked>false</masked>
       <name>Message</name>
    </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>468d5de5-9344-4dff-bd09-be5218bbe0ce</id>
+      <masked>false</masked>
+      <name>userId</name>
+   </variable>
 </TestCaseEntity>

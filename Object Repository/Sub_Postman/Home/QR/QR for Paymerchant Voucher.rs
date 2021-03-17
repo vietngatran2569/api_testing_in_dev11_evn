@@ -25,7 +25,7 @@
     },
     {
       &quot;name&quot;: &quot;voucherCode&quot;,
-      &quot;value&quot;: &quot;0076526835826942&quot;,
+      &quot;value&quot;: &quot;${voucherCode}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
@@ -44,7 +44,6 @@
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>application/x-www-form-urlencoded</value>
    </httpHeaderProperties>
    <katalonVersion>7.8.0</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
@@ -73,5 +72,25 @@
       <masked>false</masked>
       <name>tokenCus</name>
    </variables>
+   <variables>
+      <defaultValue>GlobalVariable.VoucherCode</defaultValue>
+      <description></description>
+      <id>4b5dac58-79f2-487a-876e-d305c4798c7f</id>
+      <masked>false</masked>
+      <name>voucherCode</name>
+   </variables>
+   <verificationScript>import static org.assertj.core.api.Assertions.*
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webservice.verification.WSResponseManager
+
+import groovy.json.JsonSlurper
+import internal.GlobalVariable as GlobalVariable
+
+RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
