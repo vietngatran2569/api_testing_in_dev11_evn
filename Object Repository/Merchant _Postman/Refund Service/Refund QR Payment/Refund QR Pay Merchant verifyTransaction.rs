@@ -13,7 +13,7 @@
   &quot;parameters&quot;: [
     {
       &quot;name&quot;: &quot;OTP&quot;,
-      &quot;value&quot;: &quot;1234&quot;,
+      &quot;value&quot;: &quot;${OTP}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
@@ -25,19 +25,25 @@
     },
     {
       &quot;name&quot;: &quot;TRANSREFID&quot;,
-      &quot;value&quot;: &quot;{{TRANSACTIONID}}&quot;,
+      &quot;value&quot;: &quot;${TRANSREFID}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;PIN&quot;,
-      &quot;value&quot;: &quot;123321&quot;,
+      &quot;value&quot;: &quot;${PIN}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
   ]
 }</httpBodyContent>
    <httpBodyType>form-data</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+   </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -72,5 +78,39 @@
       <masked>false</masked>
       <name>tokenMerchant</name>
    </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a1f6f405-277b-45c4-afc2-7274c896a8e6</id>
+      <masked>false</masked>
+      <name>OTP</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.TRANSREFID</defaultValue>
+      <description></description>
+      <id>76eebe88-a817-4b2a-84e0-bbe05f0c7ae7</id>
+      <masked>false</masked>
+      <name>TRANSREFID</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a5b2b3ff-fe5e-4875-b53e-2596cb007055</id>
+      <masked>false</masked>
+      <name>PIN</name>
+   </variables>
+   <verificationScript>import static org.assertj.core.api.Assertions.*
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webservice.verification.WSResponseManager
+
+import groovy.json.JsonSlurper
+import internal.GlobalVariable as GlobalVariable
+
+RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

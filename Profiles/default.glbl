@@ -109,4 +109,14 @@
       <initValue>''</initValue>
       <name>ShopId</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>get processedBy( id of subuser)</description>
+      <initValue>''</initValue>
+      <name>processedBy</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>transRefId in get list transHistory(Merchant)</description>
+      <initValue>''</initValue>
+      <name>transRefId</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

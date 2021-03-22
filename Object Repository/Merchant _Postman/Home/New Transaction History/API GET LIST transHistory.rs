@@ -25,13 +25,13 @@
     },
     {
       &quot;name&quot;: &quot;startDate&quot;,
-      &quot;value&quot;: &quot;01/01/2019&quot;,
+      &quot;value&quot;: &quot;${startDate}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;endDate&quot;,
-      &quot;value&quot;: &quot;08/08/2020&quot;,
+      &quot;value&quot;: &quot;${endDate}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
@@ -43,19 +43,25 @@
     },
     {
       &quot;name&quot;: &quot;shopId&quot;,
-      &quot;value&quot;: &quot;5ed0c350e622d3534959889c&quot;,
+      &quot;value&quot;: &quot;${shopId}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;processedBy&quot;,
-      &quot;value&quot;: &quot;5cf5f4dfed84401e58769033&quot;,
+      &quot;value&quot;: &quot;${processedBy}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
   ]
 }</httpBodyContent>
    <httpBodyType>form-data</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+   </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -97,5 +103,46 @@
       <masked>false</masked>
       <name>tokenMerchant</name>
    </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>504f3f54-0494-4ba2-8b4a-03ea1eb9b527</id>
+      <masked>false</masked>
+      <name>startDate</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>54ef6abe-9b2b-44f3-99c3-c3e158a37f48</id>
+      <masked>false</masked>
+      <name>endDate</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.ShopId</defaultValue>
+      <description></description>
+      <id>0eea1159-9f68-4bdd-8fe3-87a49550f3b7</id>
+      <masked>false</masked>
+      <name>shopId</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.processedBy</defaultValue>
+      <description></description>
+      <id>66eb1fe1-4062-4764-a782-09615d40a38a</id>
+      <masked>false</masked>
+      <name>processedBy</name>
+   </variables>
+   <verificationScript>import static org.assertj.core.api.Assertions.*
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webservice.verification.WSResponseManager
+
+import groovy.json.JsonSlurper
+import internal.GlobalVariable as GlobalVariable
+
+RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>

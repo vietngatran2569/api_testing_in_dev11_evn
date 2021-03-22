@@ -19,13 +19,13 @@
     },
     {
       &quot;name&quot;: &quot;TRANSREFID&quot;,
-      &quot;value&quot;: &quot;{{TRANSACTIONID}}&quot;,
+      &quot;value&quot;: &quot;${TRANSREFID}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
     {
       &quot;name&quot;: &quot;DEVICEID&quot;,
-      &quot;value&quot;: &quot;deviceid_for_example&quot;,
+      &quot;value&quot;: &quot;${DEVICEID}&quot;,
       &quot;type&quot;: &quot;text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     }
@@ -44,7 +44,6 @@
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>application/x-www-form-urlencoded</value>
    </httpHeaderProperties>
    <katalonVersion>7.9.1</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
@@ -73,5 +72,32 @@
       <masked>false</masked>
       <name>tokenMerchant</name>
    </variables>
+   <variables>
+      <defaultValue>GlobalVariable.TRANSREFID</defaultValue>
+      <description></description>
+      <id>af19afe4-bd59-4dbf-9a56-ece58067807e</id>
+      <masked>false</masked>
+      <name>TRANSREFID</name>
+   </variables>
+   <variables>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5306d092-e1aa-4b88-8fd8-f153a0d6af94</id>
+      <masked>false</masked>
+      <name>DEVICEID</name>
+   </variables>
+   <verificationScript>import static org.assertj.core.api.Assertions.*
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webservice.verification.WSResponseManager
+
+import groovy.json.JsonSlurper
+import internal.GlobalVariable as GlobalVariable
+
+RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
+
+ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
