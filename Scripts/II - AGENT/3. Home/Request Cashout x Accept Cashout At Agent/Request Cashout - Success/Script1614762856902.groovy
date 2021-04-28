@@ -73,7 +73,7 @@ response_3 = WS.sendRequest(findTestObject('Sub_Postman/Home/Notifications/listN
 def result_3= slurper.parseText(response_3.getResponseBodyContent())
 //GlobalVariable.requestId = result_3.getAt("data[0]").getAt("cmd").getAt("requestId").toString()
 GlobalVariable.requestId = result_3.data[0].cmd.requestId
-println(GlobalVariable.requestId)
+println('kq'+GlobalVariable.requestId)
 // request cashout at agent
 response4 = WS.sendRequest(findTestObject('Object Repository/Sub_Postman/Home/Cash out/cash out at agent/Request Subcriber confirm cash out at agent',
 	[('link') : GlobalVariable.link

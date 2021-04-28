@@ -118,14 +118,14 @@
       <name>SERVICEID</name>
    </variable>
    <variable>
-      <defaultValue>'0951115598'</defaultValue>
+      <defaultValue>'09506569643'</defaultValue>
       <description>tranfer wallet to wallet of phone 2</description>
       <id>0f09f77b-642c-44ca-8ff5-a8a4b152331f</id>
       <masked>false</masked>
       <name>SENDERPHONE</name>
    </variable>
    <variable>
-      <defaultValue>'agent'</defaultValue>
+      <defaultValue>'customer'</defaultValue>
       <description>tranfer wallet to wallet of phone 2</description>
       <id>30b0deaf-1280-4701-8a40-091380379fce</id>
       <masked>false</masked>
